@@ -1,0 +1,5 @@
+<launch>
+
+  <node pkg="vehicle_status_obd" type="obd_send_vel.py" name="obd_send_vel" output="screen" />
+
+</launch>
