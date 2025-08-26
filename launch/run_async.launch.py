@@ -7,7 +7,7 @@ from launch.substitutions import LaunchConfiguration
 def generate_launch_description():
     port = LaunchConfiguration('port')
     
-	return LaunchDescription([
+    return LaunchDescription([
         DeclareLaunchArgument(
             'port',
             default_value='/dev/ttyUSB0',
